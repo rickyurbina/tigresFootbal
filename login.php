@@ -23,16 +23,16 @@ require_once "admin/models/enlaces.php";
 	<body>
 	<section class="ftco-section">
 		<div class="container">
-			<div class="row justify-content-center">
+			<!-- <div class="row justify-content-center">
 				<div class="col-md-6 text-center mb-5">
-					<img style="width: 200px" src="images/logo.png" alt="U3 Digital">
+					<img style="width: 200px" src="imagesLogin/logo.jpg" alt="Tigres">
 				</div>
-			</div>
+			</div> -->
 			<div class="row justify-content-center">
 				<div class="col-md-6 col-lg-5">
 					<div class="login-wrap p-4 p-md-5">
 		      	<div class="icon d-flex align-items-center justify-content-center">
-		      		<span class="fa fa-user-o"></span>
+				  <img style="width: 200px" src="imagesLogin/logo.jpg" alt="Tigres">
 		      	</div>
 		      	<h3 class="text-center mb-4">Acceso al sistema</h3>
 						<form method="POST" class="login-form">
@@ -65,10 +65,10 @@ require_once "admin/models/enlaces.php";
 		</div>
 	</section>
 
-	<script src="js/jquery.min.js"></script>
-  <script src="js/popper.js"></script>
-  <script src="js/bootstrap.min.js"></script>
-  <script src="js/main.js"></script>
+	<script src="jsLogin/jquery.min.js"></script>
+  <script src="jsLogin/popper.js"></script>
+  <script src="jsLogin/bootstrap.min.js"></script>
+  <script src="jsLogin/main.js"></script>
 
 	</body>
 </html>
